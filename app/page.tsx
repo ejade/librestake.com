@@ -1,13 +1,13 @@
 import Link from 'next/link'
-import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Button } from "../components/ui/button"
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "../components/ui/card"
 import { CheckCircle, TrendingUp, Shield, Award } from 'lucide-react'
 
 export default function Home() {
   return (
     <div className="container mx-auto px-4">
       <section className="py-20 text-center">
-        <h1 className="text-4xl font-bold mb-6">Welcome to CryptoStake</h1>
+        <h1 className="text-4xl font-bold mb-6">Welcome to librestake</h1>
         <p className="text-xl mb-8 text-muted-foreground">Your trusted partner in Ethereum staking consultancy</p>
         <Button asChild size="lg">
           <Link href="/contact">Get Started</Link>
@@ -15,7 +15,7 @@ export default function Home() {
       </section>
 
       <section className="py-20">
-        <h2 className="text-3xl font-bold mb-12 text-center">Why Choose CryptoStake?</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">Why Choose librestake?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card>
             <CardHeader>

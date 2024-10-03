@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
+import '../styles/globals.css'
 
 export default function RootLayout({
   children,
@@ -11,7 +12,7 @@ export default function RootLayout({
       <body>
         <header className="py-6 px-4 bg-background">
           <nav className="container mx-auto flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-primary">CryptoStake</Link>
+            <Link href="/" className="text-2xl font-bold text-primary">librestake</Link>
             <div className="space-x-4">
               <Button variant="ghost" asChild>
                 <Link href="/">Home</Link>
@@ -28,7 +29,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="py-6 px-4 bg-background mt-12">
           <div className="container mx-auto text-center text-muted-foreground">
-            © 2023 CryptoStake. All rights reserved.
+            © 2023 librestake. All rights reserved.
           </div>
         </footer>
       </body>

@@ -3,14 +3,14 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 export default function About() {
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-bold mb-12 text-center">About CryptoStake</h1>
+      <h1 className="text-4xl font-bold mb-12 text-center">About librestake</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
             <CardTitle>Our Mission</CardTitle>
           </CardHeader>
           <CardContent>
-            At CryptoStake, our mission is to empower individuals and institutions to participate in the Ethereum ecosystem through secure and profitable staking strategies.
+            At librestake, our mission is to empower individuals and institutions to participate in the Ethereum ecosystem through secure and profitable staking strategies.
           </CardContent>
         </Card>
         <Card>
